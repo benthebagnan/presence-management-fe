@@ -6,6 +6,7 @@ import { AdminLayoutComponent } from './admin-layout/admin-layout.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { UserComponent } from './user/user.component';
+import { MaterialModule } from 'src/app/shared/material/material.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { UserComponent } from './user/user.component';
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    MaterialModule
   ]
 })
 export class AdminModule { }
