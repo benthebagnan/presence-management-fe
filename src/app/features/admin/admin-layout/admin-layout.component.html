@@ -1,7 +1,17 @@
-<div class="menu">
-    <app-sidemenu></app-sidemenu>
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+
+    <div class="sidebar">
+       <app-sidemenu></app-sidemenu>
+    </div>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+        <router-outlet></router-outlet>
+    </div>
+
+    <div class="footer">
+        footer
+    </div>
 </div>
 
-<div class="admin-container">
-    <router-outlet></router-outlet>
-</div>
