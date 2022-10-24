@@ -9,12 +9,13 @@ import { UserComponent } from './user/user.component';
 import { MaterialModule } from 'src/app/shared/material/material.module';
 
 
+
 @NgModule({
   declarations: [
     AdminLayoutComponent,
     DashboardComponent,
     SidemenuComponent,
-    UserComponent
+    UserComponent,
   ],
   imports: [
     CommonModule,
