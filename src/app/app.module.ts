@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NotFoundComponent } from './core/components/not-found/not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material/material.module';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
+    ReportComponent,
   ],
   imports: [
     BrowserModule,
