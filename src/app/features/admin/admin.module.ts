@@ -20,7 +20,9 @@ import { MaterialModule } from 'src/app/shared/material/material.module';
   imports: [
     CommonModule,
     AdminRoutingModule,
-    MaterialModule
+    MaterialModule,
+
+    
   ]
 })
 export class AdminModule { }
