@@ -14,7 +14,7 @@
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" routerLink="/admin/dashboard">
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <span>Dashboard</span></a>
   </li>
@@ -30,10 +30,11 @@
   
   <!-- Nav Item - Utilities Collapse Menu -->
   <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true"
+    <a class="nav-link collapsed" routerLink="/admin/presence-management" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true"
       aria-controls="collapseUtilities">
       <i class="fas fa-fw fa-wrench"></i>
       <span>Gestion de presence</span>
+      <!-- <button mat-raised-button color="primary" routerLink="/admin">Accueil</button> -->
     </a>
     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
@@ -50,7 +51,7 @@
   
   <!-- Nav Item - Pages Collapse Menu -->
   <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+    <a class="nav-link collapsed" routerLink="/admin/absence-request" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
       aria-controls="collapseTwo">
       <i class="fas fa-fw fa-cog"></i>
       <span>Demande Absence</span>
@@ -119,14 +120,14 @@
 
   <!-- Nav Item - Charts -->
   <li class="nav-item">
-    <a class="nav-link" href="charts.html">
+    <a class="nav-link" routerLink="/admin/matter">
       <i class="fas fa-fw fa-chart-area"></i>
       <span>Matière</span></a>
   </li>
 
   <!-- Nav Item - Tables -->
   <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link" routerLink="/admin/hour-lesson">
       <i class="fas fa-fw fa-table"></i>
       <span>Heure cours</span></a>
   </li>
