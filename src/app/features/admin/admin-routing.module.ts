@@ -16,11 +16,26 @@ const routes: Routes = [
           m => m.UserModule
         )
       },
-      // {
-      //   path: 'presence', loadChildren: () => import('./user/user.module').then(
-      //     m => m.UserModule
-      //   )
-      // }
+      {
+        path: 'presence-management', loadChildren: () => import('./presence-management/presence-management.module').then(
+          m => m.PresenceManagementModule
+        )
+      },
+      {
+        path: 'absence-request', loadChildren: () => import('./absence-request/absence-request.module').then(
+          m => m.AbsenceRequestModule
+        )
+      },
+      {
+        path: 'hour-lesson', loadChildren: () => import('./hour-lesson/hour-lesson.module').then(
+          m => m.HourLessonModule
+        )
+      },
+      {
+        path: 'matter', loadChildren: () => import('./matter/matter.module').then(
+          m => m.MatterModule
+        )
+      },
     ] 
   }
 ];
