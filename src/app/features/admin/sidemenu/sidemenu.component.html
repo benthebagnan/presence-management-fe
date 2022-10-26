@@ -23,12 +23,9 @@
   <hr class="sidebar-divider">
 
   <!-- Heading -->
-  <div class="sidebar-heading">
-    Interface
-  </div>
-
-  
+  <h2 class="text-center">Professor</h2>
   <!-- Nav Item - Utilities Collapse Menu -->
+<<<<<<< HEAD
   <li class="nav-item">
     <a class="nav-link collapsed" routerLink="/admin/presence-management" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true"
       aria-controls="collapseUtilities">
@@ -46,6 +43,15 @@
       </div>
     </div>
   </li>
+=======
+    <li class="nav-item">
+      <a class="nav-link collapsed" routerLink="/admin/presence-management" >
+        <i class="fas fa-fw fa-wrench"></i>
+        <span>Gestion de presence</span>
+        <!-- <button mat-raised-button color="primary" routerLink="/admin">Accueil</button> -->
+      </a>
+    </li>
+>>>>>>> dev
 
   <!-- Nav Item - Utilities Collapse Menu -->
   <li class="nav-item">
@@ -58,7 +64,7 @@
   </li>
 
 
-  
+    <h2 class="text-center">Student</h2>
   <!-- Nav Item - Pages Collapse Menu -->
   <li class="nav-item">
     <a class="nav-link collapsed" routerLink="/admin/absence-request" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
@@ -66,13 +72,28 @@
       <i class="fas fa-fw fa-cog color-icon-nav"></i>
       <span>Demande Absence</span>
     </a>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-      <div class="bg-white py-2 collapse-inner rounded">
-        <h6 class="collapse-header">Custom Components:</h6>
-        <a class="collapse-item" href="buttons.html">Buttons</a>
-        <a class="collapse-item" href="cards.html">Cards</a>
+  </li>
+
+    <h2 class="text-center">Administrator</h2>
+    <li class="nav-item">
+      <a class="nav-link collapsed" routerLink="/admin/absence-request" >
+        <i class="fas fa-fw fa-cog"></i>
+        <span> Liste des Presences</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseone" aria-expanded="true"
+        aria-controls="collapseone">
+        <i class="fas fa-fw fa-cog"></i>
+        <span>Demandes Absences</span>
+      </a>
+      <div id="collapseone" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+          <!-- <h6 class="collapse-header">Custom Components:</h6> -->
+          <a class="collapse-item" >Nouvelle demande</a>
+          <a class="collapse-item" >Liste des demandes</a>
+        </div>
       </div>
-    </div>
   </li>
   
   <li class="nav-item">
