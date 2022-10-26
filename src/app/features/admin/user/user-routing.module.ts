@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: '', component: UserComponent },
 //   { path: 'edit/:uid', component: UEditComponent },
   { path: 'add', component: UserFormComponent },
+  { path: 'edit', component: UserFormComponent },
 ];
 
 @NgModule({
