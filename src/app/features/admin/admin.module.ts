@@ -10,12 +10,14 @@ import { MaterialModule } from 'src/app/shared/material/material.module';
 
 
 
+
 @NgModule({
   declarations: [
     AdminLayoutComponent,
     DashboardComponent,
     SidemenuComponent,
     UserComponent,
+  
   ],
   imports: [
     CommonModule,
